@@ -1,6 +1,14 @@
+# Force Dart as main language
 *.dart linguist-language=Dart
+
+# Ignore everything else from language stats
 *.cpp linguist-vendored
 *.h linguist-vendored
 *.c linguist-vendored
-CMakeLists.txt linguist-vendored
 *.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+*.json linguist-vendored
+*.xml linguist-vendored
+*.md linguist-vendored
+*.yml linguist-vendored
+*.yaml linguist-vendored
