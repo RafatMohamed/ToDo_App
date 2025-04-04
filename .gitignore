@@ -35,6 +35,14 @@ migrate_working_dir/
 
 # Symbolication related
 app.*.symbols
+# Dart/Pub related
+.packages
+build/
+
+# Flutter related
+android/.gradle/
+ios/Pods/
+ios/.symlinks/
 
 # Obfuscation related
 app.*.map.json
